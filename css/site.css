@@ -1,41 +1,43 @@
+body {
+    background-color: #dfd9e2;
+}
+
 #box {
-    border: 15px solid #DDDF00;
+    border: 15px solid #c3acce;
     border-radius: 50px;
     width: 1000px;
     height: 1500px;
     padding: auto;
     margin: auto;
     text-align: center;
-    color: #D4D700;
-    background-color: #2B9348;
+    color: #d8d8d8;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-#title {
-    background-color: #5c8215;
+.text-top {
+    background-color: #538083;
     text-shadow: 0px 0px 5px black;
     padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 75px;
+}
+
+#title {
     border-radius: 5px;
     font-size: 48px;
     margin-top: 75px;
 }
 
 #subtitle {
-    background-color: #5c8215;
-    text-shadow: 0px 0px 5px black;
-    padding: 5px 10px;
+    margin-top: 175px;
     border-radius: 5px;
-    font-size: 48px;
+    font-size: 24px;
 }
 
-body {
-    background-color: #007F5F;
-}
-
-#top-box {
-    background-image: url("../images/rsc-screenshot.png");
+#box-top {
+    background-image: url("../images/rsc-catherby.png");
     background-position: center;
     display: flex;
     align-items: center;
@@ -43,4 +45,50 @@ body {
     width: 1000px;
     border-radius: 35px 35px 0px 0px;
     height: 500px;
+}
+
+#box-middle {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box-bottom {
+    background-color: white;
+    height: 500px;
+    width: 1000px;
+    border-radius: 0px 0px 35px 35px;
+}
+
+.text-middle {
+    text-shadow: 0px 0px 2px black;
+    font-weight: bold;
+    color: #538083;
+}
+
+#info-middle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.imgs-middle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.box-middle-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-middle-subtitle {
+    font-size: 24;
+    font-weight: normal;
 }
